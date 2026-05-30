@@ -1,0 +1,1 @@
+python src/main.py --model edsr --scale 4 --n_colors 1 --data_train FLIR --data_test FLIR --dir_rgb_train C:/HKU/FLIR_ADAS_v2/images_rgb_train --dir_rgb_val C:/HKU/FLIR_ADAS_v2/images_rgb_val --pre_train experiment/CDM-SRNet/model/model_best.pt --test_only --save_results --save_gt --save CDM-SRNet --data_range 801-810
